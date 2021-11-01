@@ -1,0 +1,106 @@
+Registry inexistant, creation du registry
+Création du NameNode
+worker//dragon.enseeiht.fr:8024/worker3 bound in registry8024
+Registry inexistant, creation du registry
+Registry inexistant, creation du registry
+Registry inexistant, creation du registry
+worker//esteban.enseeiht.fr:8023/worker2 bound in registry8023
+Registry inexistant, creation du registry
+worker//albator.enseeiht.fr:8022/worker1 bound in registry8022
+worker//carbone.enseeiht.fr:8025/worker4 bound in registry8025
+worker//newton.enseeiht.fr:8021/worker0 bound in registry8021
+Pas de namenode trouvé, création d'un nouveau.
+newton
+8041
+
+Ecriture du fragment 0 Dans le node 0
+Le nombre de caracteres lus :  1017
+Le nombre de caracteres envoye : 1017Le nombre de caracteres perdu : 3
+Envoi du fragment...
+albator
+8042
+
+Ecriture du fragment 1 Dans le node 1
+Le nombre de caracteres lus :  974
+Le nombre de caracteres envoye : 974Le nombre de caracteres perdu : 46
+Envoi du fragment...
+esteban
+8043
+
+Ecriture du fragment 2 Dans le node 2
+Le nombre de caracteres lus :  980
+Le nombre de caracteres envoye : 980Le nombre de caracteres perdu : 40
+Envoi du fragment...
+dragon
+8044
+
+Ecriture du fragment 3 Dans le node 3
+Le nombre de caracteres lus :  986
+Le nombre de caracteres envoye : 986Le nombre de caracteres perdu : 34
+Envoi du fragment...
+carbone
+8045
+
+Le serveur commence l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+Ecriture du fragment 4 Dans le node 4
+Le nombre de caracteres lus :  987
+Le nombre de caracteres envoye : 987Le nombre de caracteres perdu : 33
+Envoi du fragment...
+newton
+8041
+
+Ecriture du fragment 5 Dans le node 0
+Le nombre de caracteres lus :  175
+Le nombre de caracteres envoye : 175
+Envoi du fragment...
+Fin de l'ecriture 6 fragment ecrits.
+null
+Le serveur commence l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+Le serveur commence l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+Le serveur commence l'écriture dans le fichier
+Le serveur commence l'écriture dans le fichier
+Le serveur commence l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+Le serveur a terminé l'écriture dans le fichier
+M-à-j de la structure
+Lancement du map : //newton.enseeiht.fr:8021/worker0
+Commence le map 
+ 
+Lancement du map : //albator.enseeiht.fr:8022/worker1
+Worker sends CallBack 
+ 
+Map executed successfully
+Commence le map 
+ 
+Lancement du map : //esteban.enseeiht.fr:8023/worker2
+Worker sends CallBack 
+ 
+Map executed successfully
+Commence le map 
+ 
+Lancement du map : //dragon.enseeiht.fr:8024/worker3
+Worker sends CallBack 
+ 
+Map executed successfully
+Commence le map 
+ 
+Lancement du map : //carbone.enseeiht.fr:8025/worker4
+Worker sends CallBack 
+ 
+Map executed successfully
+Commence le map 
+ 
+Lancement du map : //newton.enseeiht.fr:8021/worker0
+Commence le map 
+ 
+Worker sends CallBack 
+ 
+Map executed successfully
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at application.QuasiMonteCarlo.map(QuasiMonteCarlo.java:28)
+	at ordo.WorkerImpl$MultiThreadedMap.run(WorkerImpl.java:49)
+	at java.base/java.lang.Thread.run(Thread.java:829)
